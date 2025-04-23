@@ -1,0 +1,398 @@
+2025-02-21 11:38:16 [INFO] Question: give me columns name
+
+
+2025-02-21 11:38:16 [INFO] Running PandasAI with openai LLM...
+2025-02-21 11:38:16 [INFO] Prompt ID: 44e95404-b9d4-417a-8728-e4d9ff5881c9
+2025-02-21 11:38:16 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 11:38:16 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 11:38:16 [INFO] Executing Step 1: CacheLookup
+2025-02-21 11:38:16 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 11:38:16 [INFO] Using prompt: <dataframe>
+dfs[0]:40000x4
+Patient_ID,Name,Gender,Age
+P022114,Adam Hughes,Male,62
+P014935,Brenda Silva,Male,14
+P029157,Melissa Hernandez,Female,58
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me columns name
+
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 11:38:16 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 11:38:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-21 11:38:16 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyAU***************************p160. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-02-21 11:43:21 [INFO] Question: give me columns name
+
+
+2025-02-21 11:43:21 [INFO] Running PandasAI with openai LLM...
+2025-02-21 11:43:21 [INFO] Prompt ID: 6effe146-01d9-4124-b526-80f4295ed91c
+2025-02-21 11:43:21 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 11:43:21 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 11:43:21 [INFO] Executing Step 1: CacheLookup
+2025-02-21 11:43:21 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 11:43:21 [INFO] Using prompt: <dataframe>
+dfs[0]:40000x4
+Patient_ID,Name,Gender,Age
+P003401,Courtney Bray,Male,29
+P019790,Valerie Crosby,Female,21
+P034131,David Williams,Male,56
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me columns name
+
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 11:43:21 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 11:43:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 11:43:22 [INFO] Retrying request to /chat/completions in 0.417065 seconds
+2025-02-21 11:43:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 11:43:23 [INFO] Retrying request to /chat/completions in 0.970247 seconds
+2025-02-21 11:43:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 11:43:24 [ERROR] Pipeline failed on step 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-02-21 14:11:56 [INFO] Question: Which admitted patient has the highest pending bill?
+
+2025-02-21 14:11:56 [INFO] Running PandasAI with openai LLM...
+2025-02-21 14:11:56 [INFO] Prompt ID: e808bb0a-ff00-4137-b38f-db6e8fd15981
+2025-02-21 14:11:56 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 14:11:56 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 14:11:56 [INFO] Executing Step 1: CacheLookup
+2025-02-21 14:11:56 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 14:11:56 [INFO] Using prompt: <dataframe>
+dfs[0]:60238x18
+Appointment_ID,Patient_ID,Doctor_ID,Appointment_date,Status,Appointment_Time,Bill_ID,Bill_DateTime,Bill_Type,Amount,Payment_Type,Admission_ID,Admission_DateTime,Procedure_ID,Room_ID,Bed_ID,Discharge_DateTime,Stay_duration
+AP18037,P024069,D026,2023-06-03,Treat,19:38,BI0116,2023-04-20 13:52:00,Semi-Private Room,83458.33,Insurance,AD12539,2023-12-18 14:45:00,P027,R003,B0468,2023-12-29 03:17:00,4 days 00:16:00
+AP7982,P007168,D034,2023-01-28,Admit,06:24,BI17950,2023-09-19 15:51:00,General Ward,1813.89,Cash,AD10302,2023-02-28 12:41:00,P011,R023,B0189,2023-09-09 08:56:00,5 days 19:57:00
+AP1391,P002000,D015,2023-05-01,Treat,06:33,BI13709,2023-05-24 13:01:00,ICU Room,8614.58,Card,AD10430,2023-01-01 12:53:00,P005,R024,B0265,2023-05-30 12:01:00,13 days 17:25:00
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which admitted patient has the highest pending bill?
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 14:11:56 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 14:11:59 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 14:11:59 [INFO] Retrying request to /chat/completions in 0.461302 seconds
+2025-02-21 14:12:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 14:12:00 [INFO] Retrying request to /chat/completions in 0.901846 seconds
+2025-02-21 14:12:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 14:12:01 [ERROR] Pipeline failed on step 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-02-21 14:33:13 [INFO] Question: Which admitted patient has the highest pending bill?
+
+2025-02-21 14:33:13 [INFO] Running PandasAI with openai LLM...
+2025-02-21 14:33:13 [INFO] Prompt ID: b1e5c9d0-0e07-4022-93fd-016c36539d7d
+2025-02-21 14:33:13 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 14:33:14 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 14:33:14 [INFO] Executing Step 1: CacheLookup
+2025-02-21 14:33:14 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 14:33:14 [INFO] Using prompt: <dataframe>
+dfs[0]:60238x18
+Appointment_ID,Patient_ID,Doctor_ID,Appointment_date,Status,Appointment_Time,Bill_ID,Bill_DateTime,Bill_Type,Amount,Payment_Type,Admission_ID,Admission_DateTime,Procedure_ID,Room_ID,Bed_ID,Discharge_DateTime,Stay_duration
+AP37830,P018944,D016,2023-12-13,Treat,09:57,BI23496,2023-10-13 08:15:00,General Ward,19839.58,Cash,AD6501,2023-04-23 01:33:00,P006,R016,B0354,2023-02-01 16:42:00,18 days 12:21:00
+AP14006,P024807,D100,2023-07-24,Treat,08:59,BI50549,2023-08-17 06:23:00,Appointment_Bill,2609.72,Insurance,AD9339,2023-05-29 11:26:00,P022,R019,B0103,2023-06-28 07:56:00,4 days 06:04:00
+AP2896,P001535,D073,2023-09-20,Admit,08:34,BI6776,2023-01-15 10:42:00,ICU Room,2784.03,Card,AD12417,2023-03-28 04:00:00,P024,R003,B0473,2023-09-16 04:52:00,3 days 03:12:00
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Which admitted patient has the highest pending bill?
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 14:33:14 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 14:33:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 14:33:28 [INFO] Retrying request to /chat/completions in 0.380505 seconds
+2025-02-21 14:33:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 14:33:29 [INFO] Retrying request to /chat/completions in 0.756295 seconds
+2025-02-21 14:33:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 14:33:31 [ERROR] Pipeline failed on step 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-02-21 15:07:51 [INFO] Question: i want count of Patient_ID
+
+2025-02-21 15:07:51 [INFO] Running PandasAI with openai LLM...
+2025-02-21 15:07:51 [INFO] Prompt ID: 560fb3c7-5d67-4ac8-91c3-a04582715515
+2025-02-21 15:07:51 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 15:07:51 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 15:07:51 [INFO] Executing Step 1: CacheLookup
+2025-02-21 15:07:51 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 15:07:51 [INFO] Using prompt: <dataframe>
+dfs[0]:40000x4
+Patient_ID,Name,Gender,Age
+P031955,Justin Luna,Female,24
+P024722,Noah Roberts,Male,69
+P014141,Arthur Hall,Male,17
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ i want count of Patient_ID
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 15:07:51 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 15:07:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-21 15:07:52 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyBz***************************O-Xo. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-02-21 15:17:57 [INFO] Question: give me count Doctor_ID
+2025-02-21 15:17:57 [INFO] Running PandasAI with openai LLM...
+2025-02-21 15:17:57 [INFO] Prompt ID: e101e7a5-b56a-40e2-9115-9a6e28185bda
+2025-02-21 15:17:57 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 15:17:58 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 15:17:58 [INFO] Executing Step 1: CacheLookup
+2025-02-21 15:17:58 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 15:17:58 [INFO] Using prompt: <dataframe>
+dfs[0]:100x4
+Doctor_ID,Name,Specialization,Schedule
+D026,Theresa Esparza,Orthopedic Surgeon,08:00 - 16:00
+D077,Katherine Holt,Neurologist,09:00 - 17:00
+D064,Becky Rivera,Dermatologist,12:00 - 20:00
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ give me count Doctor_ID
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 15:17:58 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 15:18:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 15:18:00 [INFO] Retrying request to /chat/completions in 0.377278 seconds
+2025-02-21 15:18:01 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 15:18:01 [INFO] Retrying request to /chat/completions in 0.756019 seconds
+2025-02-21 15:18:02 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-21 15:18:02 [ERROR] Pipeline failed on step 3: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-02-21 16:06:43 [INFO] Question: hi
+2025-02-21 16:06:43 [INFO] Running PandasAI with openai LLM...
+2025-02-21 16:06:43 [INFO] Prompt ID: 6c699de2-d4c0-4d78-a445-a7728a48c70a
+2025-02-21 16:06:43 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 16:06:43 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 16:06:43 [INFO] Executing Step 1: CacheLookup
+2025-02-21 16:06:43 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 16:06:43 [INFO] Using prompt: <dataframe>
+dfs[0]:40000x4
+Patient_ID,Name,Gender,Age
+P015674,Melanie Howe,Female,59
+P001535,Kristin Smith,Male,57
+P000682,Danielle Knight,Male,6
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ hi
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 16:06:43 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 16:06:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-21 16:06:44 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyAK***************************jPjM. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-02-21 16:07:00 [INFO] Question: i want count of Patient_ID
+2025-02-21 16:07:00 [INFO] Running PandasAI with openai LLM...
+2025-02-21 16:07:00 [INFO] Prompt ID: 93a7ddbd-56f3-41c5-877a-6cfaa924949b
+2025-02-21 16:07:00 [INFO] Executing Pipeline: GenerateChatPipeline
+2025-02-21 16:07:00 [INFO] Executing Step 0: ValidatePipelineInput
+2025-02-21 16:07:00 [INFO] Executing Step 1: CacheLookup
+2025-02-21 16:07:00 [INFO] Executing Step 2: PromptGeneration
+2025-02-21 16:07:00 [INFO] Using prompt: <dataframe>
+dfs[0]:40000x4
+Patient_ID,Name,Gender,Age
+P001639,Frank Allen,Male,60
+P007745,Joshua Carrillo,Male,54
+P010077,Kenneth Mason,Female,25
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ i want count of Patient_ID
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2025-02-21 16:07:00 [INFO] Executing Step 3: CodeGenerator
+2025-02-21 16:07:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-02-21 16:07:00 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: AIzaSyAK***************************jPjM. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}

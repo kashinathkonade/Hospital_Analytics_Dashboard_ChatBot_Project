@@ -1,0 +1,101 @@
+Doctor_ID,Name,Specialization,Schedule
+D001,Evelyn Austin,Dermatologist,00:00 - 08:00
+D002,Susan Donaldson,Urologist,08:00 - 16:00
+D003,Christopher Hopkins,Orthopedic Surgeon,08:00 - 16:00
+D004,Maurice Henson,Urologist,12:00 - 20:00
+D005,Becky Rivera,Urologist,08:00 - 16:00
+D006,Larry Cooper,General Physician,00:00 - 08:00
+D007,Kevin Finley,General Physician,00:00 - 08:00
+D008,Meredith Hill,Urologist,10:00 - 18:00
+D009,Robert Cox,Orthopedic Surgeon,12:00 - 20:00
+D010,Melissa Bradford,General Physician,08:00 - 16:00
+D011,Nicole French,Neurologist,10:00 - 18:00
+D012,Lisa Bishop,General Physician,09:00 - 17:00
+D013,Whitney Taylor,Dermatologist,00:00 - 08:00
+D014,Lisa Smith,General Physician,12:00 - 20:00
+D015,Scott Clark,Dermatologist,12:00 - 20:00
+D016,Joseph Valencia,Cardiologist,08:00 - 16:00
+D017,Erin Cain,Dermatologist,09:00 - 17:00
+D018,Tammy Barnett,Neurologist,10:00 - 18:00
+D019,Angela Davies,Urologist,10:00 - 18:00
+D020,Eric Rice,Dermatologist,10:00 - 18:00
+D021,Brittany Erickson,Neurologist,12:00 - 20:00
+D022,Katelyn Schmitt,Dermatologist,09:00 - 17:00
+D023,Katherine Holt,Urologist,09:00 - 17:00
+D024,Amanda Wiggins,Urologist,09:00 - 17:00
+D025,Alexander Duncan,Neurologist,12:00 - 20:00
+D026,Angela Castaneda,Neurologist,09:00 - 17:00
+D027,James Ellis,Neurologist,12:00 - 20:00
+D028,Henry Walsh,Urologist,09:00 - 17:00
+D029,Madeline Hancock,General Physician,09:00 - 17:00
+D030,Jacqueline Graham,Urologist,08:00 - 16:00
+D031,Susan Lee,Urologist,12:00 - 20:00
+D032,Eric Hendricks,Cardiologist,10:00 - 18:00
+D033,Edwin Garrett,Neurologist,09:00 - 17:00
+D034,Diana Collins,Urologist,09:00 - 17:00
+D035,Kim Woodward,Cardiologist,08:00 - 16:00
+D036,Jack Orr,Orthopedic Surgeon,09:00 - 17:00
+D037,Robert Roberts,Cardiologist,00:00 - 08:00
+D038,Brittany Montgomery,Urologist,09:00 - 17:00
+D039,Tyler Roberts,Neurologist,08:00 - 16:00
+D040,Stuart Mosley,Neurologist,09:00 - 17:00
+D041,Joanne Gould,Cardiologist,00:00 - 08:00
+D042,Donald Cross,Neurologist,00:00 - 08:00
+D043,Jason Gutierrez,Orthopedic Surgeon,09:00 - 17:00
+D044,Jill Mccormick,General Physician,00:00 - 08:00
+D045,Tara Shea,Urologist,10:00 - 18:00
+D046,John Harrison,Neurologist,12:00 - 20:00
+D047,Jessica Johnson,General Physician,09:00 - 17:00
+D048,Erik Spears,Orthopedic Surgeon,08:00 - 16:00
+D049,Brandy Barker,Urologist,10:00 - 18:00
+D050,Donald Bates,Neurologist,10:00 - 18:00
+D051,Mr. Logan Young MD,Neurologist,09:00 - 17:00
+D052,Joseph Lin,Neurologist,10:00 - 18:00
+D053,Michael Lyons,Orthopedic Surgeon,00:00 - 08:00
+D054,Jack Spencer,General Physician,08:00 - 16:00
+D055,James Martin,Orthopedic Surgeon,12:00 - 20:00
+D056,Amber Carr,Neurologist,12:00 - 20:00
+D057,Rose Ramirez DDS,Orthopedic Surgeon,00:00 - 08:00
+D058,Robert Jackson,Urologist,10:00 - 18:00
+D059,Richard Knight,General Physician,08:00 - 16:00
+D060,Samantha Ward,Urologist,10:00 - 18:00
+D061,Michael Hernandez,Neurologist,08:00 - 16:00
+D062,William Martin,Cardiologist,00:00 - 08:00
+D063,Gilbert Guzman,Cardiologist,08:00 - 16:00
+D064,Dawn Hughes,Dermatologist,12:00 - 20:00
+D065,Lisa Taylor,Urologist,12:00 - 20:00
+D066,Michael Shepard,Urologist,12:00 - 20:00
+D067,Theresa Esparza,Dermatologist,10:00 - 18:00
+D068,Adam Hogan,Orthopedic Surgeon,08:00 - 16:00
+D069,Richard Foley,General Physician,09:00 - 17:00
+D070,Dawn Lane,Neurologist,12:00 - 20:00
+D071,Peter Moreno,Orthopedic Surgeon,12:00 - 20:00
+D072,Kristin Jackson,Cardiologist,09:00 - 17:00
+D073,Jose Steele,Cardiologist,09:00 - 17:00
+D074,Vanessa Carter,Neurologist,10:00 - 18:00
+D075,Martha Brown,General Physician,08:00 - 16:00
+D076,Hannah Evans,Neurologist,00:00 - 08:00
+D077,Mr. Jason Ware,Dermatologist,09:00 - 17:00
+D078,Sean Bernard III,Orthopedic Surgeon,08:00 - 16:00
+D079,Alexander Green,Orthopedic Surgeon,09:00 - 17:00
+D080,James Potter,Cardiologist,10:00 - 18:00
+D081,Paul Martinez,General Physician,09:00 - 17:00
+D082,Dawn Casey,General Physician,10:00 - 18:00
+D083,Paul Combs,Neurologist,10:00 - 18:00
+D084,Carrie Maynard,Neurologist,00:00 - 08:00
+D085,Christopher Burke,Dermatologist,09:00 - 17:00
+D086,Steven Lewis,Neurologist,09:00 - 17:00
+D087,Walter Thompson,Dermatologist,00:00 - 08:00
+D088,Paige Davenport,General Physician,08:00 - 16:00
+D089,Catherine Daniels,General Physician,12:00 - 20:00
+D090,Louis Smith,Orthopedic Surgeon,12:00 - 20:00
+D091,Christopher Ochoa,Cardiologist,09:00 - 17:00
+D092,Jonathan Smith,Neurologist,08:00 - 16:00
+D093,Rita Thomas,Neurologist,09:00 - 17:00
+D094,Kyle Griffith,Urologist,12:00 - 20:00
+D095,Joe Sandoval,Urologist,10:00 - 18:00
+D096,Erica Osborne,Urologist,09:00 - 17:00
+D097,Scott Jennings,Orthopedic Surgeon,00:00 - 08:00
+D098,Michelle Rowland,Urologist,12:00 - 20:00
+D099,Lauren Barber,Cardiologist,00:00 - 08:00
+D100,Kimberly Lawson,General Physician,10:00 - 18:00

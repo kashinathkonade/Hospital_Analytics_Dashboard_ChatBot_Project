@@ -1,0 +1,68 @@
+User: sujanabillava
+Message: /start
+Response: Hello! I'm your friendly bot. How can I assist you today?
+
+User: sujanabillava
+Message: Hi
+Response: I'm here to help, but I didn't understand that. Could you rephrase?
+
+User: sujanabillava
+Message: Hello
+Response: Hi there! How can I assist you?
+
+User: sujanabillava
+Message: How are you
+Response: I'm just a bot, but I'm doing great! What about you?
+
+User: sujanabillava
+Message: Help
+Response: I'm here to help, but I didn't understand that. Could you rephrase?
+
+User: sujanabillava
+Message: /help
+Response: You can ask me anything or use the following commands:
+/start - Start the bot
+/help - Get help
+
+User: sujanabillava
+Message: /start
+Response: Hello! I'm your friendly bot. How can I assist you today?
+
+User: sujanabillava
+Message: /help
+Response: You can ask me anything or use the following commands:
+/start - Start the bot
+/help - Get help
+
+User: sujanabillava
+Message: /start
+Response: Hello! I'm your friendly bot. How can I assist you today?
+
+User: sujanabillava
+Message: Hello
+Response: Hi there! How can I assist you?
+
+User: sujanabillava
+Message: /start
+Response: Hello! I'm your friendly bot. How can I assist you today?
+
+User: sujanabillava
+Message: Hello
+Response: Hi there! How can I assist you?
+
+User: sujanabillava
+Message: How are you
+Response: I'm just a bot, but I'm doing great! What about you?
+
+User: sujanabillava
+Message: Sus
+Response: I'm here to help, but I didn't understand that. Could you rephrase?
+
+User: sujanabillava
+Message: Good
+Response: I'm here to help, but I didn't understand that. Could you rephrase?
+
+User: sujanabillava
+Message: /start
+Response: Hello! I'm your friendly bot. How can I assist you today?
+
