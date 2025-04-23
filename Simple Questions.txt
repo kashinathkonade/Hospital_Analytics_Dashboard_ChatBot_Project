@@ -1,0 +1,182 @@
+Simple Questions:
+How many patients are in the dataset?
+What are the available procedure types?
+How many doctors are in the dataset?
+What are the different room types in the hospital?
+Show me the first 5 appointments.
+What are the different types of bills in the dataset?
+List all the available payment types.
+How many beds are available in each room type?
+Show me the first 5 admissions.
+How many male and female patients are in the dataset?
+
+Complex Questions:
+
+Which doctor has the most appointments?
+
+Show me the sum of all patient payments received between January 1, 2023, and December 31, 2023?
+
+What is the average age of patients admitted for procedures?
+
+How many appointments were scheduled but not admitted?
+
+Which room has the highest number of beds and also that room types?
+
+List the patients who have been admitted for more than 20 days.
+
+=How many patients were admitted in ICU rooms?
+
+Which doctor has the longest working schedule?
+
+Show the number of patients who have had multiple appointments.
+
+
+How much total revenue was generated from appointments?
+What is the average stay duration for each procedure type?
+Which doctor specializes in cardiology and how many appointments have they handled?
+How many patients had a procedure and were admitted to an ICU room?
+
+1]How many patient spend an amount of more than 70000?
+
+2]Find the Total Number of Beds in Each Room Type?
+
+3]FIND PATIENT(P000045,P000060,P000072,P000084) APPOINTMENTS AND THER ASSIGNED DOCTORS?
+
+4]GIVE ME LIST OF PATIENT DETIALS WHO ADMITTED ON 2022-12-31 in ICU?
+
+5]CALCULATE THE TOTAL BILLING AMOUNT PER PATIENT 
+
+6]FIND THE TOTAL NUMBER OF BEDS IN EACH ROOM TYPE.
+
+
+<> Patient + Appointment + Doctor
+
+1.Which doctor is assigned for patient Pxxxxxx’s appointment today?
+2.What time is patient Pxxxxxx’s appointment, and which doctor will see them?
+3.Which doctor has the most scheduled appointments today?
+4.Which patient has the first appointment with Dr. X today?
+5.How many appointments does Dr. X have today?
+6.Which patients have appointments with a cardiologist today?
+7.What is the average number of patients a doctor sees daily?
+8.Which doctors are free for new appointments today?
+9.Which patient was scheduled for an appointment but later admitted?
+10.What is the status of Pxxxxxx’s appointment and admission?
+
+<>  Patient + Admission + Rooms + Beds
+
+1.Which room and bed is assigned to patient Pxxxxxx?
+2.How many patients are admitted in Room X?
+3.How many ICU beds are occupied by admitted patients?
+4.What is the total number of occupied beds in the hospital?
+5.Which patient has been admitted for the longest time?
+6.How many patients are in general ward rooms?
+7.Which patients were recently transferred to another room?
+8.How many patients are sharing the same room?
+9.Which room has the most admitted patients?
+10.Which patients were discharged from Room X today?
+
+<> Patient + Billing + Procedure
+
+1.What is the total bill amount for patient Pxxxxxx, including procedures?
+2.How much did patient Pxxxxxx pay for Procedure X?
+3.Which procedure has the highest billing cost?
+4.What is the total revenue generated from all procedures today?
+5.How many unpaid bills are pending for admitted patients?
+6.Which patients paid for their procedures in cash?
+7.Which department generated the most revenue from procedures?
+8.How many patients underwent a procedure but haven’t paid yet?
+9.What is the highest procedure bill amount recorded this month?
+10.Which patient had the most expensive procedure?
+
+<> Doctor + Procedure + Admission
+
+1.Which doctor performed the most procedures this week?
+2.How many procedures were performed by Dr. X in the last 7 days?
+3.Which patients were admitted after undergoing Procedure X?
+4.Which doctor handles the most admitted patients?
+5.What is the most commonly performed procedure by Dr. X?
+6.Which doctors have the highest number of admitted patients?
+7.Which doctors perform the most expensive procedures?
+8.How many admitted patients need to undergo procedures tomorrow?
+9.How many patients have undergone multiple procedures in one admission?
+10.Which procedures require the longest hospital stay?
+
+<> Appointment + Billing + Admission
+
+1.How many admitted patients still have unpaid bills for their appointments?
+2.What is the total cost of appointments today?
+3.Which patient has the highest total bill, including appointments and hospital stay?
+4.How much was billed for all admitted patients today?
+5.Which admitted patient has the highest pending bill?
+6.How many admitted patients paid their bills today?
+7.Which patients had appointments but later got admitted?
+8.What is the total amount collected from appointment fees this week?
+9.How many patients had appointments, underwent a procedure, and were then admitted?
+10.What is the total hospital revenue from both appointments and procedures?
+
+<> Admission + Rooms + Beds + Billing
+
+1.Which room has the highest revenue from admitted patients?
+2.What is the total bill for all patients in Room X?
+3.Which room has the most high-billing patients?
+4.How much does the hospital earn from all ICU rooms?
+5.What is the total amount billed for all admitted patients this month?
+6.Which room has the longest average stay duration?
+7.Which rooms have the most unpaid bills?
+8.What is the highest bill generated by a single patient?
+9.Which bed was occupied for the longest time before being vacated?
+10.How many patients were discharged without clearing their bills?
+
+<> Patient + Doctor + Procedure + Appointment
+
+1.Which doctor has treated patient Pxxxxxx the most times?
+2.Which patients had multiple appointments with the same doctor?
+3.Which procedure is the most common for Dr. X’s patients?
+4.How many patients had follow-up appointments after their procedure?
+5.Which doctor performed the most procedures on admitted patients?
+6.Which patient had the most procedures in a single hospital visit?
+7.What is the success rate of procedures performed by Dr. X?
+8.Which doctor has the highest number of repeat patients?
+9.How many patients booked follow-up appointments with the same doctor?
+10.How many patients had an appointment, were admitted, and later underwent a procedure?
+
+<> Admission + Procedure + Billing + Doctor
+
+1.Which doctor has the highest revenue from procedures?
+2.What is the most expensive procedure performed in the hospital?
+3.Which patients had the longest hospital stay after a procedure?
+4.What is the total cost of all procedures performed this month?
+5.How many patients have unpaid procedure bills?
+6.What is the most common procedure for admitted patients?
+7.Which department earns the most from procedures?
+8.How much did the hospital earn from procedures in the last 7 days?
+9.Which patient had the highest combined cost for procedures and admission?
+10.What is the total hospital revenue from procedures this year?
+
+<> Beds + Rooms + Doctor + Admission
+
+1.Which room has the most admitted patients under Dr. X?
+2.How many patients are assigned to Dr. X across different rooms?
+3.Which doctor has the most patients in ICU?
+4.How many beds are occupied by patients under Dr. X?
+5.What is the average stay duration of patients under Dr. X?
+6.Which room has the highest patient turnover rate?
+7.Which doctor handles the most long-term admitted patients?
+8.How many patients under Dr. X are currently in general ward rooms?
+9.Which doctor admits the most patients in the hospital?
+10.How many patients admitted under Dr. X have already been discharged?
+
+1.What is the total hospital revenue from all departments?
+2.Which doctor has the highest earnings from appointments, procedures, and admissions?
+3.How many patients had an appointment, underwent a procedure, were admitted, and then discharged?
+4.What is the average billing amount per patient across all hospital services?
+5.Which patients have had the most hospital visits?
+6.What is the average length of stay for all admitted patients?
+7.Which department contributes the most revenue to the hospital?
+8.What is the total number of procedures performed in the hospital this year?
+9.How many ICU beds are occupied by patients who had major surgeries?
+10.What is the most common reason for hospital admissions?
+
+
+
+

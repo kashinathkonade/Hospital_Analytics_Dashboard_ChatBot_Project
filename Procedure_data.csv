@@ -1,0 +1,42 @@
+Procedure_ID,Procedure,Procedure_Type
+P001,Electrocardiogram (ECG/EKG),Cardiologist
+P002,Echocardiogram,Cardiologist
+P003,Stress Test,Cardiologist
+P004,Cardiac Catheterization,Cardiologist
+P005,Angioplasty and Stenting,Cardiologist
+P006,Pacemaker or Defibrillator Implantation,Cardiologist
+P007,Holter Monitoring,Cardiologist
+P008,Electroencephalogram (EEG),Neurologist
+P009,Nerve Conduction Studies/EMG,Neurologist
+P010,Lumbar Puncture (Spinal Tap),Neurologist
+P011,Brain Imaging (MRI/CT/PET Scans),Neurologist
+P012,Botox Injections for Neurological Disorders,Neurologist
+P013,Deep Brain Stimulation (DBS),Neurologist
+P014,Skin Biopsy,Dermatologist
+P015,Cryotherapy,Dermatologist
+P016,Laser Therapy,Dermatologist
+P017,Mohs Surgery,Dermatologist
+P018,Chemical Peels,Dermatologist
+P019,Dermabrasion/Microdermabrasion,Dermatologist
+P020,Photodynamic Therapy,Dermatologist
+P021,Joint Replacement Surgery,Orthopedic Surgeon
+P022,Arthroscopy,Orthopedic Surgeon
+P023,Fracture Repair,Orthopedic Surgeon
+P024,Spinal Fusion Surgery,Orthopedic Surgeon
+P025,Ligament Reconstruction,Orthopedic Surgeon
+P026,Rotator Cuff Repair,Orthopedic Surgeon
+P027,Carpal Tunnel Release,Orthopedic Surgeon
+P028,Cystoscopy,Urologist
+P029,Prostate Biopsy,Urologist
+P030,Ureteroscopy,Urologist
+P031,Vasectomy,Urologist
+P032,TURP (Transurethral Resection of the Prostate),Urologist
+P033,Lithotripsy,Urologist
+P034,Bladder Sling Surgery,Urologist
+P035,Physical Examination,General Physician
+P036,Vaccination Administration,General Physician
+P037,Blood Tests and Diagnostic Tests,General Physician
+P038,Basic Wound Care,General Physician
+P039,Nebulization Therapy,General Physician
+P040,Health Screening,General Physician
+P041,Minor Procedures,General Physician
